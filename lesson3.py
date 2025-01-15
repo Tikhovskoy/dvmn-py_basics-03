@@ -52,5 +52,3 @@ server = smtplib.SMTP_SSL('smtp.yandex.ru', 465)
 server.login(login, password)
 server.sendmail(from_address, to_address, encoded_letter)
 server.quit()
-
-print("отправлено")
